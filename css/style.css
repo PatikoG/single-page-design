@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFF7F0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.consultation{
+    width: 176px;
+    height: 44px;
+    background: #030303;
+    border-radius: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFF7F0;
+    border: none;
+}
+
+header{
+    width: 100%;
+}
+
+.circle{
+    width: 48px;
+    height: 48px;
+}
+.free{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px; 
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.solitons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.designeasy{
+    width: 343px;
+    height: 90px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #030303;
+}
+
+.tenyears{
+    width: 285px;
+    height: 104px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7A746E;
+    margin-top: 16px;
+}
+
+.forgrid h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.one{
+    width: 343px;
+    height: 364px;
+    background: #755CDE;
+    border-radius: 8px;
+}
+
+
+.two{
+    width: 159px;
+    height: 182px;
+    background: #F6A560;
+    border-radius: 8px;
+}
+
+.three{
+    width: 159px;
+    height: 182px;
+    background: #F39E9E;
+    border-radius: 8px; 
+}
+
+.four{
+    width: 343px;
+    height: 158px;
+    background: #EB7565;
+    border-radius: 8px;
+}
+
+.five{
+    width: 343px;
+    height: 182px;
+    background: #61C4B7;
+    border-radius: 8px;
+}
+
+.six{
+    width: 343px;
+    height: 182px;
+    background: #552049;
+    border-radius: 8px;
+}
+
+
+.forgrid{
+    margin-top: 32px;
+    row-gap: 24px ;
+    display: grid;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
