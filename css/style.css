@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    overflow-x: hidden;
 }
 
 .consultation{
@@ -30,6 +30,11 @@ body{
     line-height: 28px;
     color: #FFF7F0;
     border: none;
+}
+
+.consultation:hover{
+    background: #755CDE;
+    cursor: pointer;
 }
 
 header{
@@ -96,6 +101,7 @@ header{
     height: 364px;
     background: #755CDE;
     border-radius: 8px;
+    grid-column: 1/3;
 }
 
 
@@ -118,6 +124,7 @@ header{
     height: 158px;
     background: #EB7565;
     border-radius: 8px;
+    grid-column: 1/3;
 }
 
 .five{
@@ -125,6 +132,7 @@ header{
     height: 182px;
     background: #61C4B7;
     border-radius: 8px;
+    grid-column: 1/3;
 }
 
 .six{
@@ -132,6 +140,7 @@ header{
     height: 182px;
     background: #552049;
     border-radius: 8px;
+    grid-column: 1/3;
 }
 
 
@@ -139,20 +148,549 @@ header{
     margin-top: 32px;
     row-gap: 24px ;
     display: grid;
+    grid-template-columns: repeat(2, 187.5px);
+    justify-items: center;
+}
+
+.one img{
+    transform: translate(150%, 10%);
+}
+
+.two img{
+    transform: translate(120%, 25%);
+}
+
+.three img{
+    transform: translate(120%, 25%);
+}
+
+.four img{
+    transform: translate(150%, 30%);
+}
+
+.five img{
+    transform: translate(105%, 30%);
+}
+
+.six img{
+    transform: translate(150%, 30%);
+}
+
+.one h1{
+    margin-top: 115px;
+    margin-left: 24px;
+}
+
+.two h1{
+    margin-top: 73px;
+    margin-left: 23px;
+}
+
+.three h1{
+    margin-top: 68px;
+    margin-left: 23px;
+}
+
+.four h1{
+    margin-top: 46px;
+    margin-left: 23px;
+}
+
+.five h1{
+    margin-top: 64px;
+    margin-left: 23px;
+}
+
+.six h1 {
+    margin-top: 68px;
+    margin-left: 23px;
+}
+
+.pht img{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.amyinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amyheader{
+    width: 343px;
+    height: 66px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #030303;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.amypr{
+    width: 343px;
+    height: 104px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7A746E;
+    margin-bottom: 24px;
+}
+
+.consultationone{
+    width:176px;
+    height: 44px;
+    background: #EB7565;
+    border-radius: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFF7F0;
+    border: none;
+}
+
+.consultationone:hover{
+    background: #F6A560;
+    cursor: pointer;
+}
+
+.consultationtwo:hover{
+    background: #F6A560;
+    cursor: pointer;
+}
+
+.consultantamy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sliderwork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.work{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #030303;
+}
+
+.sliderphotos{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.sliderphotos img{
+    width: 270px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+
+.sliderbuttons button{
+    width: 64px;
+    height: 64px;
+    background: #030303;
+    border-radius: 50%;
+    border: none;
     
+}
+
+#left{
+    margin-right: 16px;
+}
+
+#left:hover{
+    background: #755CDE;
+    cursor: pointer;
+}
+
+#right:hover{
+    background: #755CDE;
+    cursor: pointer;
+}
+
+.bookinfo{
+    width: 343px;
+    height: 352px;
+    background: #030303;
+    border-radius: 10px;
+    margin-top: 100px;
+}   
+
+
+.insidewrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 49px;
+
+
+}
+
+
+.callbook{
+    width: 240px;
+    height: 33px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFF7F0;
+    margin-bottom: 24px;
+}
+
+
+.callbookinfos{
+    width: 295px;
+    height: 130px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF7F0;
+    margin-bottom: 24px;
+}
+
+.consultationtwo{
+    width: 176px;
+    height: 44px;
+    background: #EB7565;
+    border-radius: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFF7F0;
+    border: none;
+}
+
+
+footer{
+   width: 100%;
+   height: 130px;
+}
+.endofpage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 42px;    
+    margin-left: 15px;
+    margin-right: 17px;
+
+}
+    
+
+@media screen and (min-width: 768px) {
+.free{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.consultation{
+    width: 228px;
+    height: 56px;
+}
+
+.designeasy{
+    width: 690px;
+    height: 55px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.tenyears{
+    width: 573px;
+    height: 56px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.forgrid{
+    grid-template-columns: repeat(4, 178px);
+    grid-template-rows: repeat(3, 158px);
+    row-gap: 33px;
+}
+
+.four{
+    width: 343px;
+    grid-column-start: 5;
+    margin-top: 14px;
+}
+
+.six{
+    grid-column-start: 5;
+}
+
+.consultantamy{
+    display: flex;
+    flex-direction: row;
+     
+}
+.pht img{
+    transform: translateX(-106px);
+}
+
+.amyheader{
+    width: 339px;
+    height: 120px;
+    text-align: start;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.amypr{
+    width:339px;
+    height: 140px;
+    text-align: start;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.amyinfo{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+
+.work{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.sliderphotos img{
+    width: 540px;
+    height: 360px;
+}
+
+
+.bookinfo{
+    width: 690px;
+    height: 352px;
+}
+
+.callbook{
+    width: 540px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.callbookinfos{
+    width: 540px;
+    height: 84px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.consultationtwo{
+    width: 228px;
+    height: 56px;   
+}
+
+
+.consultationone{
+    width: 228px;
+    height: 56px;
 }
 
 
 
 
+}
+
+@media screen and (min-width: 1440px){
+.free{
+    margin-left: 165px;
+    margin-right:164px;
+    margin-top: 34px;
+}
+
+.designeasy{
+    margin-top: 70px;
+    width: 751px;
+    height: 71px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+}
+
+.tenyears{
+    width: 730px;
+    height: 56px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;   
+}
 
 
+.forgrid{
+    grid-template-columns: repeat(6, 170px);
+    grid-template-rows: repeat(3, 150px);
+    row-gap: 56px;
+    column-gap: 15px;
+    margin-top: 80px;
+}
+
+.one{
+    width: 354px;
+    height: 364px;
+}
+
+.two{
+    width: 164px;
+    height: 182px;
+    margin-left: 22px;
+}
+
+.three{
+    width: 164px;
+    height: 182px;
+    margin-left: 30px;
+}
+
+.four{
+    width: 354px;
+    height: 158px;
+    margin-top:0px;
+    margin-left: 24px;
+}
+
+.five{
+    width: 354px;
+    height: 182px;
+    grid-column: 6/6;
+    grid-row: 1;
+    margin-right: 151px;
+}
+
+.six{
+    width: 354px;
+    height: 158px;
+    grid-column:6/6;
+    margin-right: 151px;
+}
+
+.six h1{
+    margin-top:45px;
+  
+}
 
 
+.consultantamy{
+     margin-top: -160px;
+     width: 100%;
+     justify-content: space-evenly;
+}
 
 
+.pht img{
+    width: 445px;
+    height: 445px;
+    transform: none;
+    
+}
 
+.amyheader{
+    width: 540px;
+    height: 100px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
 
+.amypr{
+    width: 540px;
+    height: 84px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.bookinfo{
+    width: 1110px;
+    height: 320px;
+    margin-bottom: 60px;
+}
+
+.insidewrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column{
+    margin-top: 30px;
+}
+
+.callbook{
+    text-align: start;
+}
+
+.callbookinfos{
+    text-align: start;
+}
+
+}
 
 
 
